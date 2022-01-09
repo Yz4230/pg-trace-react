@@ -51,17 +51,6 @@ const Link = styled.a({
 });
 
 const Footer: React.FC = () => {
-  const links = [
-    "home",
-    "consept",
-    "service",
-    "floors",
-    "interview",
-    "blog",
-    "access",
-    "download",
-  ];
-
   return (
     <Container>
       <SwitchLogo css={{ color: "black", fontSize: "2.5em", margin: 0 }}>
@@ -78,14 +67,10 @@ const Footer: React.FC = () => {
         <FaRss />
       </SocialContainer>
       <Links>
-        {links.map((link, i) => (
-          <>
-            <Link key={link} href="#">
-              {link}
-            </Link>
-            {i !== links.length - 1 && <span> | </span>}
-          </>
-        ))}
+        <Link href="#">home</Link> |<Link href="#">concept</Link> |
+        <Link href="#">service</Link> |<Link href="#">floors</Link> |
+        <Link href="#">interview</Link> |<Link href="#">blog</Link> |
+        <Link href="#">access</Link> |<Link href="#">download</Link>
       </Links>
     </Container>
   );
