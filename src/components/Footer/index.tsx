@@ -34,6 +34,7 @@ const Links = styled.div({
   backgroundColor: "#F5F5F5",
   display: "flex",
   justifyContent: "center",
+  alignItems: "baseline",
 });
 
 const Link = styled.a({
