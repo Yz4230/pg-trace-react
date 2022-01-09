@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# filesystem
+.DS_Store
+
+# build artifacts
+dist
+dist-ssr
+
+# sensitive files
+*.local
+
+# IDE
+.vscode
