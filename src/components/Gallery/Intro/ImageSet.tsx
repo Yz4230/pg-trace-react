@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 
-
 import CafeImage1 from "@/assets/cafe1.jpg";
 import CafeImage2 from "@/assets/cafe2.jpg";
 import CafeImage3 from "@/assets/cafe3.jpg";
@@ -16,6 +15,7 @@ const Container = styled.div({
 });
 
 const Image = styled.img({
+  width: "100%",
   aspectRatio: "1/1",
   objectFit: "cover",
 });
