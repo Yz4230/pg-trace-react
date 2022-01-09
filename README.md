@@ -54,10 +54,9 @@ pnpm run build
 ### Emotion
 
 - 似たような OSS に、[Styled Components](https://styled-components.com/)があるが、こちらの方がキャッシュ機能が優秀で、高いパフォーマンスが期待できる。
-- 他に、[CSS Modules](https://github.com/css-modules/css-modules)という選択肢があるが、
+- 他に、[CSS Modules](https://github.com/css-modules/css-modules)という選択肢があるが、次のような理由で採用しなかった。
   - ファイル構成が冗長になる
   - `styles`の型が`any`になる。
-    点により見送った。
 
 ### Vite & pNPM
 
